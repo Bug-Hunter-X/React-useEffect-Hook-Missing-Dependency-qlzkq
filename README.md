@@ -1,0 +1,3 @@
+# React useEffect Hook Missing Dependency
+
+This example demonstrates a common error in React applications: a missing dependency in the `useEffect` hook.  When a component's `useEffect` hook depends on a value that's not listed in the dependency array, unexpected behavior can occur. In this specific case, changes to `someOtherState` will not trigger a re-render and the `console.log` will not be updated accordingly. This can lead to subtle bugs that are difficult to track down.
